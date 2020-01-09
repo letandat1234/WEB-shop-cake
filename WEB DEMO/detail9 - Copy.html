@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Cake A A A </title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/detail.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript">
+		$(function() {
+			var pull        = $('#pull');
+			menu        = $('nav ul');
+			menuHeight  = menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+		});
+
+		$(window).resize(function(){
+			var w = $(window).width();
+			if(w > 320 && menu.is(':hidden')) {
+				menu.removeAttr('style');
+			}
+		});
+	</script>
+</head>
+<body>    
+	<!-- header -->
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div id="logo1" class="col-md-3 col-sm-12 col-xs-12">
+					<h1>
+						<a  href="C:/Users/ADMIN/Desktop/c#/Assignment 2/WEB DEMO/web.html"><img src=" C:/Users/ADMIN/Desktop/c#/Assignment 2/image/logo4.png" height= "60px"alt="Logo"></a>						
+						<nav><a id="pull" class="btn btn-danger" href="#">
+							<i class="fa fa-bars"></i>
+						</a></nav>			
+					</h1>
+				</div>
+				<div id="search" class="col-md-7 col-sm-12 col-xs-12">
+					
+				</div>
+				<div id="cart" class="col-md-2 col-sm-12 col-xs-12">
+					<a class="display" href="#">List Cart</a>
+					<a href="#">6</a>				    
+				</div>
+			</div>			
+		</div>
+	</header><!-- /header -->
+	<!-- endheader -->
+
+	<!-- main -->
+	<section id="body">
+		<div class="container">
+			<div class="row">
+				<div id="sidebar" class="col-md-3">
+					<nav id="menu">
+						<ul>
+							<li class="menu-item">Category</li>
+							<li class="menu-item"><a href="C:/Users/ADMIN/Desktop/c#/Assignment 2/WEB DEMO/web.html#best" title="">Best	Seeling</a></li>
+							<li class="menu-item"><a href="C:/Users/ADMIN/Desktop/c#/Assignment 2/WEB DEMO/web.html#bday" title="">Birthday cake</a></li>
+												
+						</ul>
+						<!-- <a href="#" id="pull">Danh mục</a> -->
+					</nav>
+
+					<div id="banner-l" class="text-center">
+						
+						<div class="banner-l-item">
+							<a href="detail2.html"><img src="image/w6.jpg"sizes="150px" class="dj-image" width="170" alt="" class="img-thumbnail"></a>
+						</div>
+						<div class="banner-l-item">
+							<a href="detail7.html"><img src="image/ca1.jpg"sizes="150px" class="dj-image" width="170" alt="" class="img-thumbnail"></a>
+						</div>
+						<div class="banner-l-item">
+							<a href="detail4.html"><img src="image/w7.jpg"sizes="150px" class="dj-image" width="170" alt="" class="img-thumbnail"></a>
+						</div>
+						<div class="banner-l-item">
+							<a href="#"><img src="image/banh1.jpg"sizes="150px" class="dj-image" width="170" alt="" class="img-thumbnail"></a>
+						</div>
+						<div class="banner-l-item">
+							<a href="Payment.html"><img src="image/w8.jpg"sizes="150px" class="dj-image" width="170" alt="" class="img-thumbnail"></a>
+						</div>
+						<div class="banner-l-item">
+							<a href="#"><img src="image/banh2.jpg"sizes="150px" class="dj-image" width="170" alt="" class="img-thumbnail"></a>
+						</div>
+					</div>
+				</div>
+
+				<div id="main" class="col-md-9">
+					<!-- main -->
+					<!-- phan slide la cac hieu ung chuyen dong su dung jquey -->
+				
+
+					
+
+					<div id="wrap-inner">
+						<div id="product-info">
+							<div class="clearfix"></div>
+							<h3>Vanilla Birthday Cake</h3>
+							<div class="row">
+								<div id="product-img" class="col-xs-12 col-sm-12 col-md-3 text-center">
+									<img src="image/ca9.jpeg" alt="" height="200px">
+								</div>
+								<div id="product-details" class="col-xs-12 col-sm-12 col-md-9">
+									
+									<p>Price <span class="price">$39.00</span></p>
+								
+									<p>Status: New 100%</p>
+									<p>Promotion: 0% installment payment for Sacombank Bank cardholders</p>
+									<p>Status: In stock</p>
+
+									<p> <a href="C:/Users/ADMIN/Desktop/c#/Assignment 2/WEB DEMO/Payment2.html" >
+                               
+			       		   	<input  type="submit" class="D"  name="" value="Buy">Buy</a>      
+			        
+			         </a>     </p> 
+			                    
+								</div>
+							</div>							
+						</div>
+						<div id="product-detail">
+								
+							<h3>Product details</h3>
+							<p class="text-justify">Here is a fantastic vanilla cake which is an absolute treat for the taste buds of beloved ones. It's a unique gift to appease special ones on their birthday. It tastes yummy and looks so tempting that no one can ignore its charm anymore. So, if you are perplexed about what to gift to your loved ones on their birthday then order this cake now and send it to convey your love and wishes to your loved ones.</p>
+							<p>Cake Flavour: Vanilla  </p>
+                            <p>Type of Cake: Cream </p>
+							<p>Minimum Weight: 500 gm </p> 
+							<p>Shapes Available: Round-Shaped</p>
+							<p>Type of Bread: Vanilla</p>
+							<p>Type of cream: Vanilla</p>
+						
+						</div>
+						<div id="comment">
+							<h3>Comment</h3>
+							<div class="col-md-9 comment">
+								<form>
+									<div class="form-group">
+										<label for="email">Email:</label>
+										<input required type="email" class="form-control" id="email" name="email">
+									</div>
+									<div class="form-group">
+										<label for="name">Name:</label>
+										<input required type="text" class="form-control" id="name" name="name">
+									</div>
+									<div class="form-group">
+										<label for="cm">Comment:</label>
+										<textarea required rows="10" id="cm" class="form-control" name="content"></textarea>
+									</div>
+									<div class="form-group text-right">
+										<button type="submit" class="btn btn-default">Send</button>
+									</div>
+								</form>
+							</div>
+						</div>
+				
+					</div>					
+					<!-- end main -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- endmain -->
+
+	<!-- footer -->
+	<footer id="footer">			
+		<div id="footer-t">
+			<div class="container">
+				<div class="row">				
+					<div id="logo-f" class="col-md-3 col-sm-12 col-xs-12 text-center">						
+						<a  href="C:/Users/ADMIN/Desktop/c#/Assignment 2/WEB DEMO/web.html"><img src=" C:/Users/ADMIN/Desktop/c#/Assignment 2/image/logo3.png" height= "150px" width="100px" alt="Logo"> Cake AAT</a>	
+					</div>
+
+					<div id="hotline" class="col-md-3 col-sm-12 col-xs-12">
+						<h3>Hotline</h3>
+						<p>Call Us : 0871 456 789  </p>
+						<p>Email : phunn@gmail.com</p>
+					</div>
+					<div id="contact" class="col-md-3 col-sm-12 col-xs-12">
+						<h3>Contact Us</h3>
+						<p>Cake AAT  46 Ngo Quyen, Son Tra , Da Nang City, VietNam</p>
+						<p></p>
+					</div>
+				</div>				
+			</div>
+			<div id="footer-b">				
+				<div class="container">
+					<div class="row">
+						<div id="footer-b-l" class="col-md-6 col-sm-12 col-xs-12 text-center">
+							<p>. </p>
+						</div>
+						<div id="footer-b-r" class="col-md-6 col-sm-12 col-xs-12 text-center">
+							<p><a href="" title="Joomla Templates" ></a> </p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</footer>
+	<!-- endfooter -->
+</body>
+</html>
